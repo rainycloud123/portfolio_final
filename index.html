@@ -1,0 +1,140 @@
+<!--I used Jeff's Bootstrap video to create this website along with 
+the bootstrap code he used from github-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--change this theme later-->
+        <img src="brown.png" alt="brown logo" style="width: 4rem; height: 3.5rem">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <!-- <div class="collapse navbar-collapse"> -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#html">HTML</a></li>
+                <li class="nav-item"><a class="nav-link" href="#react">React</a></li>
+                <li class="nav-item"><a class="nav-link" href="#react">Group Work</a></li>
+                <!--setting up links/buttons with links-->
+
+            </ul>
+            <!-- </div> -->
+        </div>
+    </nav>
+    <div style="background-image: url('mountain.jpg'); 
+        background-size: cover; height:480px; padding-top:80px;">
+        <div class="d-flex flex-column background justify-content-center align-items-center">
+            <h3 class="text-dark display 1"> CSCI 1300 Final Portfolio</h3>
+            <!-- <h4 class="text-light">Vending Machine</h4> -->
+            <!-- <a href="#storyboard" class="btn text-light">Jump to Storyboard!</a> -->
+        </div>
+        
+
+        <!-- maybe a contact me section somewhere-->
+        <section id="overview">
+            <div>
+                <p class="about-me">
+                    Hi! I am sophomore studying computer science at Brown University.
+                    At Brown I enjoy taking a range of classes from heavy coding classes to classes in anthroplogy or
+                    education.
+                    While I'm most passionate about backend software developent, I have enjoyed a closer look on the
+                    frontend side of things.
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+    <section id="html">
+        <div>
+            <h3>
+                HTML/CSS Work:
+            </h3>
+            <div class="img_button">
+                <button type="button" class="button"
+                    onclick=" window.open('https://rainycloud123.github.io/personas_final/','_blank')"> <img
+                        src="personasprev.png" alt="personas preview" style="width: 45rem; height: 30rem"></button>
+
+                <button type="button" class="button"
+                    onclick=" window.open('https://rainycloud123.github.io/responsive_redesign/','_blank')"> <img
+                        src="redesignprev.png" alt="redesign preview" style="width: 45rem; height: 30rem"></button>
+            </div>
+
+            <p>
+                <!-- look at redisign to see how to stack elements side by side-->
+            </p>
+        </div>
+
+        <!-- <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <div class="col-md-12">
+            <div class="info">
+              <i class="icon-info-sign"></i>
+              <span class="extra-info">
+                A little column extra info. Aaand just a little bit more
+              </span>
+            </div><br />
+        </div> -->
+    </section>
+
+    <section id="react">
+        <div>
+            <h3>
+                React Work:
+
+            </h3>
+            <div class="img_button">
+                <button type="button" class="button"
+                    onclick=" window.open('https://rainycloud123.github.io/development/','_blank')"> <img
+                        src="devprev.png" alt="personas preview" style="width: 45rem; height: 30rem"></button>
+            </div>
+            <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <div class="col-md-12">
+                <div class="info">
+                    <i class="icon-info-sign"></i>
+                    <span class="extra-info">
+                        Developent was a project from my cs1300 class. We were tasked with setting up a page in react with items that can be filtered, sorted, and applied to an aggregator.  
+                    </span>
+                </div><br />
+            </div>
+
+        </div>
+        <!-- </section> -->
+
+        <!--Used W3schools to align images-->
+        <!-- <section id="group"> -->
+        <div>
+            <h3>
+                Group Work:
+            </h3>
+            <div class="img_button">
+                <button type="button" class="button"
+                    onclick=" window.open('https://cs1300-iterative-design-7ne.pages.dev/','_blank')"> <img
+                        src="iterativedesign.png" alt="iterative design preview"
+                        style="width: 45rem; height: 30rem"></button>
+            </div>
+            <!-- used a template from coepen.io for the info button part -->
+            <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <div class="col-md-12">
+                <div class="info">
+                    <i class="icon-info-sign"></i>
+                    <span class="extra-info">
+                        I value group work because it allows for a collaborative environment where we to all contribute our ideas and designs!
+                    </span>
+                </div><br />
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
